@@ -45,7 +45,7 @@ class CreateProject extends Component {
 
 const mapStateToProps = (state) => {
     return {
-      auth: state.firestore.auth
+      auth: state.firebase.auth
     }
 };
 
